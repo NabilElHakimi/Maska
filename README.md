@@ -18,18 +18,18 @@ This application is designed to handle essential member data, including membersh
 ```plaintext
 .
 ├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── org.example
-│   │   │       ├── controller          # Controllers for Spring MVC
-│   │   │       ├── model               # Domain classes, including Member entity
-│   │   │       ├── repository           # Repository for data access using Spring Data
-│   │   │       ├── services             # Service layer for business logic
-│   │   │       └── Main                 # Main application entry point
-│   │   └── webapp
-│   │       ├── WEB-INF
-│   │       │   ├── views                # JSP views
-│   │       │   │   └── index.jsp
-│   │       │   ├── applicationContext.xml   # Spring bean and data source configurations
-│   │       │   ├── dispatcher-servlet.xml   # Configuration for the Spring MVC dispatcher
-│   │       │   └── web.xml              # Web application configuration
+    ├── main
+        ├── java
+        │   └── org.example
+        │       ├── controller          # Controllers for Spring MVC
+        │       ├── model               # Domain classes, including Member entity
+        │       ├── repository           # Repository for data access using Spring Data
+        │       ├── services             # Service layer for business logic
+        │       └── Main                 # Main application entry point
+        └── webapp
+            ├── WEB-INF
+                ├── views                # JSP views
+                │   └── index.jsp
+                ├── applicationContext.xml   # Spring bean and data source configurations
+                ├── dispatcher-servlet.xml   # Configuration for the Spring MVC dispatcher
+                └── web.xml              # Web application configuration
