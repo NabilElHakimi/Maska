@@ -1,4 +1,4 @@
-# Maska Member Management System
+# Maska
 
 Maska Member Management System is a modernized application built with the Spring Framework to manage member information efficiently. This project aims to replace the outdated system that relied on spreadsheets and paper records by providing a centralized, automated solution for managing member data.
 
