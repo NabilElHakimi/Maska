@@ -9,8 +9,6 @@
 <body>
 <div class="container mt-5">
     <h2 class="mb-4">Add Member</h2>
-    <a href="${pageContext.request.contextPath}/test" class="btn btn-secondary mb-4">Test Page</a>
-
     <!-- Form to add new member -->
     <form:form action="${pageContext.request.contextPath}/save" modelAttribute="membre" method="post" class="border p-4 rounded bg-light">
         <div class="form-group">
